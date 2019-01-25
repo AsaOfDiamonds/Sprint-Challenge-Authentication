@@ -46,8 +46,8 @@ Follow these steps to set up and work on your project:
 - [x] Add PM as collaborator on Github.
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
@@ -59,17 +59,17 @@ Follow these steps for completing your project:
 
 Helpful Tip on Testing this Project:
 
-- [ ] **TEST** this project using **`POSTMAN`**.
+- [x] **TEST** this project using **`POSTMAN`**.
 
 ## Minimum Viable Product
 
-- [ ] Implement the `register` function inside `/config/routes.js`.
-- [ ] Implement the `login` function inside `/config/routes.js`.
-- [ ] Use JSON Web Tokens for authentication.
+- [x] Implement the `register` function inside `/config/routes.js`.
+- [x] Implement the `login` function inside `/config/routes.js`.
+- [x] Use JSON Web Tokens for authentication.
 
 **Note** The migrations and a database with empty users is already included
 
-- [ ] Add the authentication related code. If every is done correctly, visiting `/api/jokes` should return a list of jokes.
+- [x] Add the authentication related code. If every is done correctly, visiting `/api/jokes` should return a list of jokes.
 
 ## Stretch Problem: Build a front end to interface with your User Auth System
 

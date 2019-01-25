@@ -8,6 +8,9 @@ module.exports = server => {
   server.get('/api/jokes', authenticate, getJokes);
 };
 
+
+
+
 function register(req, res) {
   // implement user registration
 }

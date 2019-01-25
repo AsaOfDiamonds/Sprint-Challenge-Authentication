@@ -12,6 +12,11 @@ server.use(express.json());
 
 configureRoutes(server);
 
+// let's make sure we are connected
+server.get('/', (req, res) => {
+  res.send('sanity check');
+});
+
 module.exports = {
   server,
 };
